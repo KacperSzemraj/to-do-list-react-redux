@@ -1,4 +1,37 @@
+# To-Do List
+
+## Demo
+
+https://kacperszemraj.github.io/to-do-list-react-redux/
+
+## Description
+
+This is a simple task list created for educational purposes. The current version includes adding tasks, marking the selected ones as completed and the possibility of removing the selected task. It also contains buttons to show/hide completed tasks and mark all tasks as completed.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to use
+
+1. Enter the task content
+2. Click on the button **"Dodaj zadanie"**
+3. The task will be added to the task list
+4. Click on the green button on the left to mark the task as completed
+5. Click on the red button on the right to delete the task
+6. Click on the **"Ukończ wszystkie"** button to mark all tasks as completed
+7. Click on the **"Pokaż ukończone"** button to hide or show completed tasks
+
+![Todolist](todo-how-to-use.gif)
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- React.js
+
+## Methodologies
+
+- BEM
 
 ## Available Scripts
 
@@ -11,11 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -37,32 +65,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
