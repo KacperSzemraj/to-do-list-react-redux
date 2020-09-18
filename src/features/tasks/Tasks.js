@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
-import Section from "./Section";
-import Header from "./Header";
-import Container from "./Container";
+import Section from "../../common/Section";
+import Header from "../../common/Header";
+import Container from "../../common/Container";
 import { useTasks } from "../../useTasks";
 
 function Tasks() {
