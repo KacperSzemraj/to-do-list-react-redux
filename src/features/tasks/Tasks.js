@@ -7,7 +7,7 @@ import Header from "./Header";
 import Container from "./Container";
 import { useTasks } from "../../useTasks";
 
-function App() {
+function Tasks() {
   const [hideDone, setHideDone] = useState(false);
 
   const toggleHideDone = () => {
@@ -53,4 +53,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tasks;
