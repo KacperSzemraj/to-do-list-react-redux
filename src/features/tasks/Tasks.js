@@ -33,13 +33,11 @@ function Tasks() {
         title="Lista zadań"
         body={
           <TaskList
-            tasks={tasks}
             removeTask={removeTask}
             toggleTaskDone={toggleTaskDone} />
         }
         extraHeaderContent={
           <Buttons
-            tasks={tasks}
             setAllDone={setAllDone}
           />
         }
