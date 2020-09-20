@@ -7,15 +7,11 @@ import Section from "../../common/Section";
 import Header from "../../common/Header";
 import Container from "../../common/Container";
 import { useTasks } from "../../useTasks";
-import { selectTasks } from './tasksSlice';
-
 
 function Tasks() {
-  const { tasks } = useSelector(selectTasks);
 
   const {
     removeTask,
-    toggleTaskDone,
     setAllDone,
     addNewTask,
   } = useTasks();
@@ -34,7 +30,7 @@ function Tasks() {
         body={
           <TaskList
             removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone} />
+          />
         }
         extraHeaderContent={
           <Buttons
