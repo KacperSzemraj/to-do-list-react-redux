@@ -10,7 +10,6 @@ import { useTasks } from "../../useTasks";
 function Tasks() {
 
   const {
-    setAllDone,
     addNewTask,
   } = useTasks();
 
@@ -29,9 +28,7 @@ function Tasks() {
           <TaskList />
         }
         extraHeaderContent={
-          <Buttons
-            setAllDone={setAllDone}
-          />
+          <Buttons />
         }
       />
     </Container>
