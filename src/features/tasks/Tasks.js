@@ -1,5 +1,4 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
@@ -11,7 +10,6 @@ import { useTasks } from "../../useTasks";
 function Tasks() {
 
   const {
-    removeTask,
     setAllDone,
     addNewTask,
   } = useTasks();
@@ -28,9 +26,7 @@ function Tasks() {
       <Section
         title="Lista zadań"
         body={
-          <TaskList
-            removeTask={removeTask}
-          />
+          <TaskList />
         }
         extraHeaderContent={
           <Buttons
